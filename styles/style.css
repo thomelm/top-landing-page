@@ -56,15 +56,22 @@ header ul {
 
 .top-text {
     display: flex;
+    flex-wrap: wrap;    
     align-items: center;
+    justify-content: space-around;
     gap: 20px;
 }
 
 .top-text img {
-    /* min-width: 300px;
-    max-width: 600px; */
-    max-width: 100%;
+    min-width: 300px;
+    max-width: 25vw;
     height: auto;
+
+}
+
+.top-text p {
+    width: 200px;
+
 }
 
 .information {
