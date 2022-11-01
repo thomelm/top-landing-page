@@ -62,6 +62,10 @@ header ul {
     gap: 20px;
 }
 
+.top-text figure {
+    margin: 20px 0px;
+}
+
 .top-text img {
     min-width: 300px;
     max-width: 25vw;
@@ -70,7 +74,9 @@ header ul {
 }
 
 .top-text p {
-    width: 200px;
+    width: 350px;
+    margin: 20px 8px;
+    text-align: left;
 
 }
 
